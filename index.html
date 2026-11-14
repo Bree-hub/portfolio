@@ -1,334 +1,405 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="I'm a Web Developer. Work Developing websites and systems for approximately 15 years. I develop Landing Pages, dynamic websites, virtual store and much more.">
-    <title>Brenda Kinoti - Personal Website</title>
-    <!-- <link rel="icon" href="./images/PNG/astrocat.png" type="image/png"> -->
-
-    <!-- Box Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brenda Ntinyari Kinoti | Data scientist, HCI and technology ethics</title>
+  <meta name="description" content="Brenda Ntinyari Kinoti is a data scientist and graduate student at Seattle Pacific University. Research and projects on automated decision systems in finance, insurance and health, with a focus on African contexts.">
+  <meta name="author" content="Brenda Ntinyari Kinoti">
+  <link rel="canonical" href="https://brendakinoti-datascientist.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brenda Ntinyari Kinoti">
+  <meta property="og:description" content="Data scientist. Research interests in human-computer interaction and technology ethics and governance.">
+  <meta property="og:url" content="https://brendakinoti-datascientist.netlify.app/">
+  <meta property="og:image" content="https://brendakinoti-datascientist.netlify.app/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <header class="header">
-        <a href="#" class="logo">Brenda Kinoti's Portfolio</a>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">Brenda Ntinyari Kinoti</a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="assets/Brenda-Ntinyari-Kinoti-CV.pdf">Download CV</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ INTRO ============ -->
+<div class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Data scientist · HCI · Technology ethics and governance</p>
+      <h1>I've built automated decision systems for banks and insurers in Kenya. Now I study what they mean for <em>the people on the receiving end</em>.</h1>
+      <p class="lede">I'm a graduate student in Data Analytics at Seattle Pacific University. I'm interested in how automated decision systems in finance, insurance and health get built and deployed in African contexts, and I come to those questions as a practitioner who has shipped such systems.</p>
+      <div class="hero-links">
+        <a href="mailto:ntinyaribrenda@gmail.com">ntinyaribrenda@gmail.com</a>
+        <a href="https://www.linkedin.com/in/brenda-ntinyari-112007140/">LinkedIn</a>
+        <a href="https://github.com/Bree-hub">GitHub</a>
+      </div>
+    </div>
+    <!-- To change the photo: replace assets/img/brenda.jpg with a square image. -->
+    <img class="portrait" src="assets/img/brenda.jpg" width="540" height="540" alt="Portrait of Brenda Ntinyari Kinoti">
+  </div>
+</div>
+
+<!-- ============ RESEARCH ============ -->
+<section id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Research and writing</h2>
+      <p>Papers and case studies from my graduate work, 2026.</p>
+    </div>
+
+    <ol class="papers">
+      <!-- To add a PDF link to a paper: put the file in /papers and add
+           <a class="more" href="papers/your-file.pdf">Read the paper (PDF)</a> under its summary. -->
+      <li class="paper">
         <div>
-            <i class='bx bx-menu' id="menu-icon"></i>
-
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Projects</a>
-                <a href="https://app.roboflow.com/junk-vv7bb">Roboflow</a>
-                <a href="#techstack">Tech Stack</a>
-                <a href="#interests">Interests</a>
-                <a href="#contact">Contact Me</a>
-            </nav>
+          <h3>From Keywords to Context: Domain-Specific Retrieval-Augmented Generation as the Next Evolution of Enterprise Knowledge Management</h3>
+          <p class="meta">Research paper · Knowledge Management and Business Intelligence · Seattle Pacific University</p>
+          <p>Argues that domain-specific retrieval-augmented generation systems are the next evolution of enterprise knowledge management infrastructure. It draws on my experience building one for a bank.</p>
+          <a class="more" href="papers/kinoti-2026-rag-enterprise-knowledge-management.pdf">Read the paper (PDF)</a>
         </div>
-    </header>
+      </li>
 
-    <!-- Designer Section Home -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi there, it's </h3>
-            <h1>Brenda Kinoti</h1>
-            <h3>and I'm <span class="multiple-text"></span></h3>
-            <p>Advancing AI progress by employing statistical and computational methodologies to derive insights, construct models, and devise algorithms that empower machines to glean knowledge from data and formulate forecasts!</p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/brenda-ntinyari-112007140/" target="_blank" rel="noopener"><i
-                        class='bx bxl-linkedin'></i></a>
-                <a href="https://www.instagram.com/bree_ravener/"><i class='bx bxl-instagram'></i></a>
-
-                <a href="https://github.com/Bree-hub"><i class='bx bxl-github'></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=%2B254716436586&text&type=phone_number&app_absent=0"
-                    target="_blank" rel="noopener"><i class='bx bxl-whatsapp'></i></a>
-            </div>
-            <a href="#contact" class="btn">Contract/Consult Me</a>
+      <li class="paper">
+        <div>
+          <h3>Detecting Conflict-of-Interest Exposure in Industry Payments to Clinicians: A Batch, Streaming, and Machine Learning Pipeline for Mephisto Health System</h3>
+          <p class="meta">Research paper · Big Data and Cloud Platforms · Seattle Pacific University</p>
+          <p>Designs and evaluates a pipeline on the public CMS Open Payments dataset: 16.1 million payment records covering about one million clinicians. Batch screening, streaming alerts and K-means clustering narrow that population to a shortlist of 500 for a compliance team to review. Mephisto is a fictional health system, and the dashboard says what the scores are for: review prioritization, not proof of wrongdoing.</p>
+          <a class="more" href="papers/kinoti-2026-conflict-of-interest-pipeline.pdf">Read the paper (PDF)</a>
+          <div class="figs">
+            <button class="shot" data-gallery="coi" data-full="assets/img/coi-architecture.webp" data-caption="Pipeline architecture: DuckDB preparation, an S3 medallion data lake, six Spark stages on Databricks, and Power BI."><img src="assets/img/coi-architecture-thumb.webp" alt="Architecture diagram of the conflict-of-interest pipeline" loading="lazy"></button>
+            <button class="shot" data-gallery="coi" data-full="assets/img/coi-executive-summary.webp" data-caption="Executive summary: from one million clinicians to a priority shortlist of 500."><img src="assets/img/coi-executive-summary-thumb.webp" alt="Executive summary dashboard" loading="lazy"></button>
+            <button class="shot" data-gallery="coi" data-full="assets/img/coi-risk-calculator.webp" data-caption="Risk calculator: a test roster scored by the trained K-means model."><img src="assets/img/coi-risk-calculator-thumb.webp" alt="Clinician risk calculator dashboard" loading="lazy"></button>
+            <button class="shot" data-gallery="coi" data-full="assets/img/coi-specialty-benchmark.webp" data-caption="Specialty benchmark: each clinician compared to their own specialty's national average."><img src="assets/img/coi-specialty-benchmark-thumb.webp" alt="Specialty benchmark dashboard" loading="lazy"></button>
+            <button class="shot" data-gallery="coi" data-full="assets/img/coi-flagged.webp" data-caption="Streaming alerts: 90-day windows where one manufacturer paid a clinician above the $10K threshold."><img src="assets/img/coi-flagged-thumb.webp" alt="Flagged clinicians dashboard" loading="lazy"></button>
+          </div>
         </div>
+      </li>
 
-        <div class="home-img">
-            <!--
-            <img srcset="images/PNG/FotoPerfil_189x241.png 576w,
-            images/PNG/FotoPerfil_247x315.png 768w,
-            images/PNG/FotoPerfil_300x382.png 992w,
-            images/PNG/FotoPerfil_307x391.png 1200w" sizes="(max-width: 576px) 280px,
-            (max-width: 768px) 580px,
-            (max-width: 992px) 780px,
-            1200px" src="images/PNG/FotoPerfil_307x391.png" alt="Fabrício Damasceno">-->
-            <!--
-            <picture>
-                <source media="(min-width: 365px)" src="images/PNG/" />
-                <source media="(min-width: 450px)" srcset="images/WEBP/FotoPerfil_224x286.webp" sizes="100vw" />
-                <source media="(min-width: 768px)" srcset="images/PNG/FotoPerfil_307x391.png" sizes="100vw" />
-                <source media="(min-width: 991px)" srcset="images/WEBP/FotoPerfil_247x315.webp" sizes="100vw" />
-                <source media="(min-width: 1200px)" src="images/WEBP/FotoPerfil_300x382.webp" sizes="100vw" />
-            </picture>-->
-
-            <img src="./images/JPG/space.jpeg" alt="Brenda Kinoti - Data Scientist">
+      <li class="paper">
+        <div>
+          <h3>Beyond Governance: Information Systems Failures and the 2016 Collapse of Chase Bank (Kenya) Limited</h3>
+          <p class="meta">Case study · Information Systems Security · Seattle Pacific University</p>
+          <p>Analyzes the governance and security failures behind the collapse, using the CISSP framework.</p>
+          <a class="more" href="papers/kinoti-2026-chase-bank-kenya-collapse.pdf">Read the case study (PDF)</a>
         </div>
-    </section>
+      </li>
 
-    <!-- Designer Section About -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="./images/PNG/ds3.png" alt="Brenda Kinoti - Data Scientist">
+      <li class="paper">
+        <div>
+          <h3>SIM Swap Fraud on M-Pesa</h3>
+          <p class="meta">Product analysis and demo · Information Systems Security · Seattle Pacific University</p>
+          <p>Examines how AI-based anomaly detection (Darktrace) applies to SIM swap fraud against mobile money users in Kenya.</p>
+          <a class="more" href="papers/kinoti-2026-sim-swap-fraud-mpesa.pdf">Read the synopsis (PDF)</a>
         </div>
+      </li>
 
-        <div class="about-content">
-            <h2 class="heading"> <span>About Me</span></h2>
-            <h3>What I do</h3>
-            <p>Hello! I am<span> Brenda Kinoti</span>, a dynamic Data & AI Expert driven by a passion for solving challenges and crafting robust, flexible, and scalable solutions. My journey involves tackling challenges head-on, crafting innovative solutions, and establishing a reputation for building dependable, scalable, and adaptable data science and machine learning systems. Beyond technical expertise, I pride myself on nurturing teams, understanding business needs, devising cost-effective strategies, driving sales, and ensuring unparalleled customer satisfaction through insightful data utilization.</p>
-            <!--<a href="#" class="btn">Read more</a>-->
+      <li class="paper">
+        <div>
+          <h3>Patient Pharmacovigilance Text Mining</h3>
+          <p class="meta">Data mining project · Seattle Pacific University · Feb 2026</p>
+          <p>Text mining of 65,000 patient drug reviews to test whether review text alone predicts a patient's drug experience, and whether complaint patterns in negative reviews reveal safety signals.</p>
+          <a class="more" href="papers/kinoti-2026-text-mining-pharmacovigilance.pdf">Read the report (PDF)</a>
         </div>
-    </section>
+      </li>
+    </ol>
+  </div>
+</section>
 
-    <!-- Designer Section Servies -->
-    <section class="services" id="services">
-        <h2 class="heading">My <span>Expertise</span></h2>
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Selected projects</h2>
+      <p>Industry and graduate work. Click any image to enlarge it.</p>
+    </div>
 
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Data Scientist</h3>
-                <p>Support in examining business/use scenario needs from the BI team to identify operational issues, specify data modeling needs, collect and verify data, utilize both judgment and statistical methods, and create data frameworks to facilitate the generation of business insights and strategies. Convert extensive, intricate datasets into practical, actionable understandings, utilize data to pinpoint, measure, and impact concrete business benefits through ad-hoc examinations and showcasing findings via dashboards and charts!</p>
-                <a href="https://api.whatsapp.com/send/?phone=%2B254716436586&text&type=phone_number&app_absent=0"
-                    target="_blank" rel="noopener" class="btn">Get Services</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-store'></i>
-                <h3>Data Analyst</h3>
-                <p>Responsible for orchestrating the design and implementation of data analysis methodologies to extract insights from intricate datasets. Collaborate closely with data scientists and software engineers to preprocess and meticulously analyze data, develop robust statistical models, and generate actionable insights. Ensure the accuracy and reliability of analytical processes and continuously refine methodologies to enhance performance and optimize results!</p>
-                <a href="https://api.whatsapp.com/send/?phone=%2B254716436586&text&type=phone_number&app_absent=0"
-                    target="_blank" rel="noopener" class="btn">Get Services</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-bar-chart-alt'></i>
-                <h3>AI Engineer</h3>
-                <p>Responsible for developing and deploying intelligent systems that can simulate human cognitive functions such as learning, reasoning, and decision-making. I work on a range of AI technologies such as natural language processing, computer vision and deep learning. My tasks include designing & implementing algorithms, developing & training models, testing & evaluating systems, and integrating them into real-world applications. Thorough monitoring and perfomance improvement for models!</p>
-                <a href="https://api.whatsapp.com/send/?phone=%2B254716436586&text&type=phone_number&app_absent=0"
-                    target="_blank" rel="noopener" class="btn">Get Services</a>
-            </div>
+    <!-- Featured: Absa RAG assistant. Generic architecture only; no bank data, screenshots or code. -->
+    <article class="feature">
+      <div>
+        <span class="label">Industry · Absa Bank Kenya · 2024 to 2025</span>
+        <h3>A retrieval-augmented product assistant for bank staff</h3>
+        <p>Staff needed quick, accurate answers from a long product catalogue. I designed and built a document retrieval system that searches the catalogue by meaning and answers in plain language, with the response streamed as it is generated.</p>
+        <p>I built the document pipeline (chunking and sentence embeddings), the FAISS vector index, the FastAPI service and the LLM integration, deployed it on AWS EC2 against an internal sandbox, and documented the API for the teams who came after me. This is the system my paper on enterprise knowledge management grows out of.</p>
+        <ul class="tags"><li>FastAPI</li><li>LangChain</li><li>FAISS</li><li>Hugging Face embeddings</li><li>Mistral-7B-Instruct</li><li>AWS EC2</li></ul>
+      </div>
+      <div>
+        <div class="diagram" role="img" aria-label="Architecture: the product catalogue PDF is chunked and embedded into a FAISS vector index. A staff question goes through a FastAPI service to a LangChain retriever, which pulls matching passages from the index and passes them to Mistral-7B-Instruct, which streams an answer back.">
+          <svg viewBox="0 0 894 256" xmlns="http://www.w3.org/2000/svg">
+            <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8b8071"/></marker></defs>
+            <text class="d-lane" x="20" y="26">Indexing, done once</text>
+            <rect class="d-box" x="20" y="40" width="150" height="58" rx="10"/><text class="d-t" x="95" y="65">Product catalogue</text><text class="d-s" x="95" y="82">PDF</text>
+            <rect class="d-box" x="196" y="40" width="150" height="58" rx="10"/><text class="d-t" x="271" y="65">Chunk and embed</text><text class="d-s" x="271" y="82">all-MiniLM-L12-v2</text>
+            <rect class="d-box hot" x="372" y="40" width="150" height="58" rx="10"/><text class="d-t" x="447" y="65">FAISS</text><text class="d-s" x="447" y="82">vector index</text>
+            <path class="d-arrow" d="M170 69H192"/><path class="d-arrow" d="M346 69H368"/>
+            <path class="d-arrow" d="M447 98V170"/><text class="d-s" x="457" y="140" style="text-anchor:start">matching passages</text>
+            <text class="d-lane" x="20" y="160">Answering each question</text>
+            <rect class="d-box" x="20" y="174" width="150" height="58" rx="10"/><text class="d-t" x="95" y="199">Staff question</text><text class="d-s" x="95" y="216">plain language</text>
+            <rect class="d-box" x="196" y="174" width="150" height="58" rx="10"/><text class="d-t" x="271" y="199">FastAPI</text><text class="d-s" x="271" y="216">service</text>
+            <rect class="d-box" x="372" y="174" width="150" height="58" rx="10"/><text class="d-t" x="447" y="199">LangChain</text><text class="d-s" x="447" y="216">retriever</text>
+            <rect class="d-box" x="548" y="174" width="150" height="58" rx="10"/><text class="d-t" x="623" y="199">Mistral-7B-Instruct</text><text class="d-s" x="623" y="216">LLM</text>
+            <rect class="d-box hot" x="724" y="174" width="150" height="58" rx="10"/><text class="d-t" x="799" y="199">Answer</text><text class="d-s" x="799" y="216">streamed in real time</text>
+            <path class="d-arrow" d="M170 203H192"/><path class="d-arrow" d="M346 203H368"/><path class="d-arrow" d="M522 203H544"/><path class="d-arrow" d="M698 203H720"/>
+          </svg>
         </div>
-    </section>
+        <p class="diagram-note">Diagram drawn for this page. It shows generic components only; the bank's documents, data and code are confidential.</p>
+      </div>
+    </article>
 
-    <!-- Designer Section Projects -->
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Recent<span> Projects</span></h2>
+    <div class="grid">
 
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="images/JPG/cnn.jpg" alt="Multiclass Skin Disease Classification using CNN"> <!---Image Size: 999 by 660-->
-                <div class="portfolio-layer">
-                    <h4>Skin Disease Classification</h4>
-                    <p>Multiclass Skin Disease Classification using CNN<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/multi-class-image-classification"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/JPG/flip.JPg" alt="post-car accident incident reporting and assessment">
-                <div class="portfolio-layer">
-                    <h4>Computer Vision</h4>
-                    <p>Object detection and instance segmentation modeling with YOLOV8<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/object-detection"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/PNG/nlp2.png" alt="sentiment analysis">
-                <div class="portfolio-layer">
-                    <h4>NLP</h4>
-                    <p>Sentiment Analysis based on Social Media posts<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/twitter-sentiment-analysis"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/PNG/Classes.png" alt="Vehicle Body Types ">
-                <div class="portfolio-layer">
-                    <h4>Vehicle Body Types</h4>
-                    <p>A multiclass classification using CNN to determine a vehicles's body type<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/vehicle_body_type_classification"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/PNG/house.png" alt="Housing prices analysis">
-                <div class="portfolio-layer">
-                    <h4>Housing Prices Analysis</h4>
-                    <p>Influence of specific variables on housing prices<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/housing-price-linear-regression-analysis/tree/main" target="_blank" rel="noopener"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/PNG/churn2.png" alt="Customer Churn">
-                <div class="portfolio-layer">
-                    <h4>Churn Prediction</h4>
-                    <p>Forecast customer churn for a telecommunications company.<br />(Open Source)</p>
-                    <a href="https://github.com/Bree-hub/customer-churn-prediction/tree/main" target="_blank" rel="noopener"><i
-                            class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-            <!--
-            <div class="portfolio-box">
-                <img src="images/portfolio6_FundoTransparente.png" alt="Atendente Virtual">
-                <div class="portfolio-layer">
-                    <h4>Atendente Virtual</h4>
-                    <p>Atendente Virtual <br /> (Em breve...)</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>-->
-
+      <article class="card">
+        <button class="shot" data-gallery="credit" data-full="assets/img/credit-profile.webp" data-caption="Credit risk: risk profile of historical, labeled outcomes."><img src="assets/img/credit-profile-thumb.webp" alt="Credit risk profile dashboard in Tableau" loading="lazy"></button>
+        <div class="card-body">
+          <p class="meta">Aug 2026 · Graduate project</p>
+          <h3>Credit risk classification</h3>
+          <p>Classification model in Python and scikit-learn with a three-tab Tableau dashboard: a risk profile of past borrowers, a queue that sorts applications into approve, review and disapprove, and a live what-if calculator built on logistic regression. The calculator states its own accuracy (65% on test data, ROC-AUC 0.74) and that it is for exploration, not final decisions.</p>
+          <div class="thumbs">
+            <button class="shot" data-gallery="credit" data-full="assets/img/credit-profile.webp" data-caption="Credit risk: risk profile of historical, labeled outcomes."><img src="assets/img/credit-profile-thumb.webp" alt="Risk profile tab" loading="lazy"></button>
+            <button class="shot" data-gallery="credit" data-full="assets/img/credit-queue.webp" data-caption="Credit risk: model predictions and the approve, review, disapprove queue."><img src="assets/img/credit-queue-thumb.webp" alt="Model prediction tab" loading="lazy"></button>
+            <button class="shot" data-gallery="credit" data-full="assets/img/credit-calculator.webp" data-caption="Credit risk: live what-if calculator, with its accuracy and limits stated."><img src="assets/img/credit-calculator-thumb.webp" alt="Live risk calculator tab" loading="lazy"></button>
+          </div>
+          <ul class="tags"><li>Python</li><li>scikit-learn</li><li>Tableau</li></ul>
         </div>
-    </section>
-    <!--
-    <section class="powerbi" id="powerbi">
-        <h2 class="heading">Power BI<span> Personal Samples</span></h2>
-        <object data="./pdfs/powerbi_samples.pdf" type="application/pdf" width="100%" height="760px">
-            <embed src="./pdfs/powerbi_samples.pdf" style="width:100%; height:1000px;">
-            <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-            </embed>
-        </object>
-        <br>
-        <br>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="images/bi.jpg" alt="Bank Customer Churn Analysis & Assessment">
-                <div class="portfolio-layer">
-                    <p>Bank Customer Churn Analysis & Assessment</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
+      </article>
 
-            <div class="portfolio-box">
-                <img src="images/bi.jpg" alt="Analyzing Trends and Patterns in Loan Classification">
-                <div class="portfolio-layer">
-                    <p>Analyzing Trends and Patterns in Loan Classification</p>
-                    <a href="#" target="_blank" rel="noopener"><i
-                            class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/bi.jpg" alt="Healthcare Accessibility Status In Nairobi, KE">
-                <div class="portfolio-layer">
-                    <p>Healthcare Accessibility Status In Nairobi, KE</p>
-                    <a href="https://github.com/BillyGareth/mood_balancer-referee" target="_blank" rel="noopener"><i
-                            class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/bi1.jpg" alt="Health Insurance Dashboard">
-                <div class="portfolio-layer">
-                    <p>Health Insurance Dashboard</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/bi1.jpg" alt="Sales Advanced Scenario Analysis">
-                <div class="portfolio-layer">
-                    <p>Sales Advanced Scenario Analysis</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/bi1.jpg" alt="World Bank Dashboard Using World Bank API">
-                <div class="portfolio-layer">
-                    <p>SDG Tracking - World Bank Dashboard Using World Bank API</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
+      <article class="card">
+        <button class="shot fit" data-gallery="amr" data-full="assets/img/amr-knime-workflow.webp" data-caption="Antimicrobial resistance: the KNIME modeling workflow."><img src="assets/img/amr-knime-workflow-thumb.webp" alt="KNIME workflow for antimicrobial resistance prediction" loading="lazy"></button>
+        <div class="card-body">
+          <p class="meta">Feb 2026 · Graduate project</p>
+          <h3>Antimicrobial resistance prediction</h3>
+          <p>KNIME pipeline that predicts ciprofloxacin resistance in urinary tract infections, so the right antibiotic can be chosen before lab results come back. Built on Stanford Healthcare's public, de-identified resistance dataset (283,715 patients; 10,494 UTI cases). Gradient boosted trees reached an AUC of 0.784.</p>
+          <div class="thumbs">
+            <button class="shot" data-gallery="amr" data-full="assets/img/amr-knime-workflow.webp" data-caption="Antimicrobial resistance: the KNIME modeling workflow."><img src="assets/img/amr-knime-workflow-thumb.webp" alt="Modeling workflow" loading="lazy"></button>
+            <button class="shot" data-gallery="amr" data-full="assets/img/amr-knime-prep.webp" data-caption="Antimicrobial resistance: preprocessing and feature engineering steps."><img src="assets/img/amr-knime-prep-thumb.webp" alt="Preprocessing workflow" loading="lazy"></button>
+            <button class="shot" data-gallery="amr" data-full="assets/img/amr-roc.webp" data-caption="Antimicrobial resistance: ROC curve, AUC 0.784."><img src="assets/img/amr-roc-thumb.webp" alt="ROC curve" loading="lazy"></button>
+          </div>
+          <ul class="tags"><li>KNIME</li><li>Gradient boosted trees</li><li>SMOTE</li></ul>
+          <a class="more" href="papers/kinoti-2026-ciprofloxacin-resistance.pdf">Read the report (PDF)</a>
         </div>
-        
-            
-        
-    </section>-->
+      </article>
 
-    <!-- Designer Section Sobre -->
-    <section class="techstack" id="techstack">
-        <div class="techstack-img">
-            <img src="./images/PNG/stack-removebg-preview.png" alt="Brenda Kinoti - Data Scientist">
+      <article class="card">
+        <button class="shot fit" style="background:#f1f1f1" data-full="assets/img/joskimu-dashboard.webp" data-caption="Joskimu Enterprise sales dashboard in Excel, fed by two SSAS cubes."><img src="assets/img/joskimu-dashboard-thumb.webp" alt="Sales dashboard for Joskimu Enterprise" loading="lazy"></button>
+        <div class="card-body">
+          <p class="meta">Aug 2026 · Graduate project</p>
+          <h3>Business intelligence system for a meat products distributor</h3>
+          <p>A full BI stack for Joskimu Enterprise, a family-run distribution business: star schema, ETL from Access to SQL Server, two SSAS cubes and an Excel dashboard for sales, payments and outstanding balances.</p>
+          <ul class="tags"><li>SQL Server</li><li>SSAS</li><li>ETL</li><li>Excel</li></ul>
         </div>
+      </article>
 
-        <div class="about-content">
-            <h2 class="heading"> <span>Technology Stack</span></h2>
-            <h3>Includes but not limited to</h3>
-            <p><span> Programming Languages: </span>Python | R | MATLAB<br><span> Data Visualization Software: </span>Tableau | Power BI | Figmacharts.<br><span> Cloud Technologies: </span>Google Cloud Platform | Microsoft Azure<br><span> Analytics Libraries: </span>Pandas | Numpy | Matplotlib | Seaborn | Plotly | Scipy | Statsmodels | ggplot2.<br><span> AI/ML Frameworks: </span>TensorFlow | PyTorch | Keras | Scikit-learn | Microsoft Cognitive Toolkit <br><span> AI/ML Algorithms: </span>Linear Regression | Logistic Regression | Decision Trees | Random Forest | Gradient Boosting | Support Vector Machines (SVM) | K-Nearest Neighbors (KNN) | Naive Bayes | K-Means Clustering | Principal Component Analysis (PCA) | Neural Networks | Convolutional Neural Networks (CNN) | Recurrent Neural Networks (RNN) | Long Short-Term Memory (LSTM) | YOLOV8 | COCO | Collaborative Filtering.<br><span> Integration Platforms: </span>React | JavaScript | FastAPI | Django | Flask | Streamlit.</p>
+      <article class="card">
+        <button class="shot" data-full="assets/img/vehicle-detection.webp" data-caption="Vehicle parts detection: model output on a validation batch."><img src="assets/img/vehicle-detection-thumb.webp" alt="Object detection output labeling vehicle parts" loading="lazy"></button>
+        <div class="card-body">
+          <p class="meta">Mar 2024 · Industry, InsurTech</p>
+          <h3>Vehicle parts and damage detection</h3>
+          <p>End-to-end computer vision system using object detection and instance segmentation to identify vehicle parts, assess damage severity and generate automated assessment reports for insurance claims.</p>
+          <ul class="tags"><li>YOLOv8</li><li>Mask R-CNN</li><li>AWS SageMaker</li></ul>
+          <a class="more" href="https://github.com/Bree-hub/object-detection">Code on GitHub</a>
         </div>
-    </section>
+      </article>
 
-    <!-- Designer Section Interests -->
-    <section class="interests" id="interests">
-        <div class="interests-img">
-            <img src="./images/PNG/astrocat.png" alt="Brenda Kinoti - Data Scientist">
+      <article class="card">
+        <div class="cover" aria-hidden="true">
+          <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+            <rect width="480" height="300" fill="#f3e2d6"/>
+            <rect x="60" y="48" width="150" height="204" rx="10" fill="#fffdf9" stroke="#cfc4b3"/>
+            <circle cx="92" cy="84" r="16" fill="#e4dccf"/>
+            <rect x="118" y="72" width="70" height="9" rx="4" fill="#cfc4b3"/><rect x="118" y="88" width="48" height="9" rx="4" fill="#e4dccf"/>
+            <rect x="76" y="122" width="118" height="9" rx="4" fill="#e4dccf"/><rect x="76" y="144" width="96" height="9" rx="4" fill="#e4dccf"/><rect x="76" y="166" width="118" height="9" rx="4" fill="#e4dccf"/><rect x="76" y="188" width="80" height="9" rx="4" fill="#e4dccf"/><rect x="76" y="210" width="104" height="9" rx="4" fill="#e4dccf"/>
+            <rect x="113" y="67" width="80" height="19" rx="4" fill="none" stroke="#a8431f" stroke-width="2"/>
+            <rect x="71" y="139" width="106" height="19" rx="4" fill="none" stroke="#a8431f" stroke-width="2"/>
+            <rect x="71" y="183" width="90" height="19" rx="4" fill="none" stroke="#a8431f" stroke-width="2"/>
+            <path d="M228 150H262" stroke="#a8431f" stroke-width="2.5" fill="none"/><path d="M256 143l9 7-9 7z" fill="#a8431f"/>
+            <g>
+              <rect x="280" y="72" width="140" height="42" rx="8" fill="#fffdf9" stroke="#cfc4b3"/><rect x="292" y="84" width="34" height="7" rx="3" fill="#a8431f"/><rect x="292" y="97" width="78" height="7" rx="3" fill="#cfc4b3"/><circle cx="402" cy="93" r="8" fill="#2f5d50"/><path d="M398 93l3 3 5-6" stroke="#fff" stroke-width="2" fill="none"/>
+              <rect x="280" y="129" width="140" height="42" rx="8" fill="#fffdf9" stroke="#cfc4b3"/><rect x="292" y="141" width="44" height="7" rx="3" fill="#a8431f"/><rect x="292" y="154" width="64" height="7" rx="3" fill="#cfc4b3"/><circle cx="402" cy="150" r="8" fill="#2f5d50"/><path d="M398 150l3 3 5-6" stroke="#fff" stroke-width="2" fill="none"/>
+              <rect x="280" y="186" width="140" height="42" rx="8" fill="#fffdf9" stroke="#cfc4b3"/><rect x="292" y="198" width="28" height="7" rx="3" fill="#a8431f"/><rect x="292" y="211" width="88" height="7" rx="3" fill="#cfc4b3"/><circle cx="402" cy="207" r="8" fill="#2f5d50"/><path d="M398 207l3 3 5-6" stroke="#fff" stroke-width="2" fill="none"/>
+            </g>
+          </svg>
         </div>
-
-        <div class="about-content">
-            <h3>Certifications and Interests</h3>
-            <p><span>Certifications: </span>Scrum master<br></p>
-            <p><span>Interests: </span>MLOps | Explainable AI | Quantum Machine Learning | Bayesian Machine Learning | Federated Learning | Evolutionary Computation | Human-in-the-Loop AI | Transfer Learning | Adversarial Machine Learning | NLP | Computer Vision</p>
-            <p><span>Activities: </span> AI Tech talks,Novels, Adventure & Hiking</p>
+        <div class="card-body">
+          <p class="meta">Jun 2024 · Industry</p>
+          <h3>OCR text extraction for identity documents</h3>
+          <p>Production text extraction system for identification documents and vehicle logbooks, with a validation pipeline, deployed through FastAPI endpoints. No sample output is shown because the inputs are personal documents.</p>
+          <ul class="tags"><li>OCR</li><li>Validation pipeline</li><li>FastAPI</li></ul>
         </div>
-    </section>
+      </article>
 
-    <!-- Designer Section Contato -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Get in<span> Touch</span></h2>
-
-        <form action="mailto:ntinyaribrenda@gmail.com" method="post" autocomplete="on">
-            <div class="input-box">
-                <input type="text" name="full_name" placeholder="Full Name" required autocomplete="name" />
-                <input type="email" name="email" placeholder="E-mail" required autocomplete="email" />
-            </div>
-            <div class="input-box">
-                <input type="tel" name="phone_number" placeholder="Phone Number" autocomplete="tel" />
-                <input type="text" name="subject" placeholder="Subject" autocomplete="off" />
-            </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your message..." required autocomplete="off"></textarea>
-            <input type="submit" value="Send" class="btn">
-        </form>
-
-    </section>
-
-    <!-- Designer Section Rodapé -->
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2024 | All rights reserved.</p>
+      <article class="card">
+        <div class="cover" aria-hidden="true">
+          <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+            <defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#a8431f"/><rect width="4" height="10" fill="#8a3516"/></pattern></defs>
+            <rect width="480" height="300" fill="#e3ede8"/>
+            <g stroke="#fffdf9" stroke-width="4">
+              <rect x="62" y="52" width="82" height="92" rx="10" fill="#b9cfc6"/><rect x="154" y="52" width="82" height="92" rx="10" fill="#9dbbb0"/><rect x="246" y="52" width="82" height="92" rx="10" fill="url(#hatch)"/><rect x="338" y="52" width="82" height="92" rx="10" fill="#c9dad3"/>
+              <rect x="62" y="156" width="82" height="92" rx="10" fill="url(#hatch)"/><rect x="154" y="156" width="82" height="92" rx="10" fill="#c9dad3"/><rect x="246" y="156" width="82" height="92" rx="10" fill="#b9cfc6"/><rect x="338" y="156" width="82" height="92" rx="10" fill="#9dbbb0"/>
+            </g>
+            <g fill="#fffdf9"><circle cx="287" cy="98" r="15"/><circle cx="103" cy="202" r="15"/></g>
+            <g stroke="#a8431f" stroke-width="3" stroke-linecap="round"><path d="M287 90v10M287 106v.5M103 194v10M103 210v.5"/></g>
+            <g fill="#2f5d50"><circle cx="126" cy="70" r="6"/><circle cx="218" cy="70" r="6"/><circle cx="402" cy="70" r="6"/><circle cx="218" cy="174" r="6"/><circle cx="310" cy="174" r="6"/><circle cx="402" cy="174" r="6"/></g>
+          </svg>
         </div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        <div class="card-body">
+          <p class="meta">Jun 2024 · Industry</p>
+          <h3>Content moderation AI</h3>
+          <p>Computer vision system for automated detection of NSFW and violent content, with real-time filtering.</p>
+          <ul class="tags"><li>Computer vision</li><li>Real-time filtering</li></ul>
         </div>
-    </footer>
+      </article>
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    </div>
+  </div>
+</section>
 
-    <!-- Typed JS -->
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head"><h2>Experience</h2></div>
+    <ol class="timeline">
+      <li class="job">
+        <div class="when">Jun 2026 to present<br>Seattle, WA</div>
+        <div>
+          <h3>Dispatcher</h3>
+          <p class="org">Office of Safety &amp; Security, Seattle Pacific University</p>
+          <p>Answer emergency and non-emergency calls, dispatch patrol officers, and log calls and officer activity in real time. Monitor campus surveillance cameras and alarm systems, and write the incident reports that feed the department's records.</p>
+        </div>
+      </li>
+      <li class="job">
+        <div class="when">Nov 2024 to Feb 2025<br>Nairobi, Kenya</div>
+        <div>
+          <h3>Data Scientist</h3>
+          <p class="org">Absa Bank Kenya PLC</p>
+          <p>Designed, built and deployed a retrieval-augmented document search system for financial product documentation, from the document pipeline to the API.</p>
+        </div>
+      </li>
+      <li class="job">
+        <div class="when">Apr 2021 to Oct 2024<br>Nairobi, Kenya</div>
+        <div>
+          <h3>Data Scientist and MLOps <span style="font-weight:400;color:var(--soft)">(previously Junior Data Scientist, BI Developer and Analyst)</span></h3>
+          <p class="org">Innovex Solutions</p>
+          <ul>
+            <li>Architected an end-to-end ML pipeline that automated vehicle damage assessment for insurance claims on an InsurTech platform, reducing manual processing time by 60%.</li>
+            <li>Built computer vision models for vehicle part identification and damage classification, and deployed them on AWS SageMaker.</li>
+            <li>Built statistical models of customer behavior and profitability on insurance data, and presented findings to business leaders.</li>
+            <li>Managed the online auction platform eauqtion.com: over 100 auctions worth more than Ksh. 1 billion ($7M+) in assets, with full financial reconciliation reporting.</li>
+            <li>Led product operations for FLIP, an InsurTech claim management system, from feature definition to service delivery.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
 
-    <script src="js/script.js"></script>+
-    <!-- Python server script -->
-    <script>
-        // Python server script
-        var pythonScript = document.createElement('script');
-        pythonScript.src = 'server.py'; // Assuming server.py is in the same directory as your HTML file
-        document.head.appendChild(pythonScript);
-    </script>
+<!-- ============ TEACHING ============ -->
+<section id="teaching">
+  <div class="wrap">
+    <div class="sec-head"><h2>Teaching and mentoring</h2></div>
+    <div class="teach">
+      <div>
+        <p class="big">For three years I taught computer classes to National Youth Service recruits and flower farm workers in Kenya. <em>Most of them had never used a computer.</em></p>
+        <figure class="photo">
+          <img src="assets/img/teaching.jpg" width="1400" height="1283" loading="lazy" alt="Brenda standing at a table of plated dishes with students in chef whites during a catering practical">
+          <figcaption>With students at a National Youth Service catering practical. The school mainly trained caterers, and I ran its computer classes alongside, which is why my students are in chef whites.</figcaption>
+        </figure>
+      </div>
+      <dl>
+        <dt>Computer instructor, National Youth Service, Kenya <span>· 2018 to 2021</span></dt>
+        <dd>Taught and mentored rotating classes of 30 to 40 recruits, from a basic introduction to computers through database management.</dd>
+        <dt>Computer classes for flower farm workers, Naivasha</dt>
+        <dd>Taught the same courses twice a week at Bohemian Farm (formerly Oserian) to workers who had never had computer classes or a standard formal education.</dd>
+        <dt>Mentor, women in tech and students, Kenya <span>· 2025 to present</span></dt>
+        <dd>Mentor early-career women in tech from Innovex and students from my home community in Meru.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION AND SKILLS ============ -->
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head"><h2>Education and skills</h2></div>
+    <div class="two">
+      <div>
+        <h3>Education</h3>
+        <ul class="plain">
+          <li><strong>MS, Data Analytics in Business</strong><span>Seattle Pacific University · Expected Spring 2027 · GPA 3.98/4.0</span></li>
+          <li><strong>BS, Computer Science</strong><span>University of Eldoret, Kenya · 2018</span></li>
+          <li><strong>Data Science Nanodegree</strong><span>Moringa School, Nairobi · 2024</span></li>
+        </ul>
+        <h3>Honors and certifications</h3>
+        <ul class="plain">
+          <li><strong>Beta Gamma Sigma</strong><span>International business honor society · Inducted May 2026</span></li>
+          <li><strong>Microsoft Office Specialist, Excel</strong><span>2026</span></li>
+          <li><strong>Scrum Master Certified</strong><span>Scrum Institute · 2022</span></li>
+        </ul>
+        <h3>Languages</h3>
+        <ul class="plain"><li>English, Swahili and Meru (fluent)</li></ul>
+      </div>
+      <div>
+        <h3>Technical skills</h3>
+        <ul class="plain">
+          <li><strong>Programming</strong><span>Python, R, SQL, JavaScript</span></li>
+          <li><strong>Machine learning and AI</strong><span>TensorFlow, Keras, PyTorch, scikit-learn, YOLOv8, Mask R-CNN, OpenCV, PaddleOCR, Hugging Face, LangChain, FAISS, RAG systems</span></li>
+          <li><strong>Big data and cloud</strong><span>PySpark, Databricks, AWS (EC2, S3, SageMaker), Azure, DuckDB, Docker</span></li>
+          <li><strong>Analytics and BI</strong><span>Power BI, Tableau, SQL Server and SSAS, KNIME, Orange, RapidMiner, Advanced Excel</span></li>
+          <li><strong>Engineering and methods</strong><span>Prompt engineering, FastAPI, Streamlit, Git/GitHub, CRISP-DM, Agile and Scrum</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p>I'm happy to talk about research, the systems I've built, or data work on the African continent.</p>
+    <a class="email" href="mailto:ntinyaribrenda@gmail.com">ntinyaribrenda@gmail.com</a>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/brenda-ntinyari-112007140/">LinkedIn</a>
+      <a href="https://github.com/Bree-hub">GitHub</a>
+      <a href="assets/Brenda-Ntinyari-Kinoti-CV.pdf">CV (PDF)</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Brenda Ntinyari Kinoti</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+  <div class="lb-inner">
+    <img src="" alt="">
+    <p class="lb-cap"></p>
+    <div class="lb-bar">
+      <button type="button" data-prev>Previous</button>
+      <button type="button" data-next>Next</button>
+      <button type="button" data-close>Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
